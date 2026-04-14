@@ -1,63 +1,16 @@
-# 🍣 Japanese Recipe Explorer
+# React + Vite
 
-A modern React-based web application to explore Japanese recipes using TheMealDB and Spoonacular APIs. Users can browse, search, and save their favorite recipes with a clean and responsive UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- 🍜 Browse Japanese recipes with pagination  
-- 🔍 Search recipes using external APIs  
-- 🔽 Sort recipes (A–Z / Z–A)  
-- 📄 View detailed recipe instructions and ingredients  
-- ❤️ Add/remove favorites (stored in localStorage)  
-- 📱 Fully responsive design  
-- ⚡ Fast and smooth user experience  
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- React.js  
-- JavaScript (ES6+)  
-- CSS  
-- React Router  
-- Context API  
-
----
-
-## 🔗 APIs Used
-
-- TheMealDB API  
-- Spoonacular API  
-
----
-
-## 📸 Screenshots
-
-(Add screenshots here after uploading)
-
----
-
-## 🌐 Live Demo
-
-(Add deployed link here)
-
----
-
-## 💡 What I Learned
-
-- Working with multiple APIs  
-- State management using Context API  
-- Implementing pagination, search, and sorting  
-- Building responsive and user-friendly UI  
-
----
-
-## 📂 Installation
-
-```bash
-git clone https://github.com/Parnika200/japanese-recipe-explorer.git
-cd japanese-recipe-explorer
-npm install
-npm run dev
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

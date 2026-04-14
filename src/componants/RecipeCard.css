@@ -1,0 +1,50 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #e5e7eb;
+  box-shadow: none;
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111111;
+  margin: 10px 0;
+}
+
+.card button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  color: #6b7280;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card button:hover {
+  color: #ec5c5c;
+  box-shadow: 0 2px 8px rgba(236, 92, 92, 0.25);
+}
+
+.card button.liked {
+  color: #ec5c5c;
+}
